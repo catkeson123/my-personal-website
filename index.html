@@ -1,11 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Calvin Thomas Atkeson</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Personal Website</title>
+    <title>Document</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <script src="script.js"></script>
+    <div id="top"></div>
+    <nav>
+      <div class="container">
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li>
+            <a href="#experience">Work and Volunteer Experience</a>
+          </li>
+          <li><a href="#location">Current Location</a></li>
+          <li><a href="#top">Back to Top</a></li>
+          <li class="contact">
+            Contact Me: &nbsp; Phone Number: (919)-389-6169
+            <a href="mailto:calvin.atkeson@gmail.com" class="email">Email</a>
+            <a
+              href="https://www.linkedin.com/in/calvin-atkeson-451362161/"
+              title="LinkedIn"
+              target="_blank"
+              class="btn-linkedin linkedin"
+              ><strong>in</strong></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+    <div class="slide-left">
+      <h1>Calvin Thomas Atkeson</h1>
+    </div>
+    <img src="images/calvin-atkeson.jpeg" height="300" width="300" />
+    <div id="about"></div>
+    <h2>
+      <a href="images/Calvin Atkeson Resume.pdf" target="_blank"> Resume </a>
+    </h2>
+    <div id="about"></div>
+    <hr />
+    <div>
+      <div>&nbsp;</div>
+      <h2>About Me</h2>
+      <p>
+        <strong>Education:</strong> BA in Applied Mathematics, Dartmouth College
+        2022
+      </p>
+      <p>
+        <strong>Relevant Coursework:</strong> Scientific Computing, Introduction
+        to Programming and Computation, Multivariable Calculus with Linear
+        Algebra, Calculus of Vectored Valued Functions, Linear Algebra,
+        Differential Equations, Math Beyond Calculus, Abstract Algebra,
+        Probability, Number Theory, Intro to Set Theory, Evolutionary Game
+        Theory, Topics in Applied Mathematics
+      </p>
+      <p>
+        <strong>Interests:</strong> Software Engineering, Hiking, Camping,
+        Football, Cooking, Traveling, Poker/Playing Cards
+      </p>
+      <div>
+        <p>
+          <strong
+            >Dartmouth Football
+            <a
+              href="https://dartmouthsports.com/sports/football/roster/calvin-atkeson/34004"
+            >
+              <strong>(Bio)</strong> </a
+            >:</strong
+          >
+          Athletics have always been a strong passion of mine. I've played
+          sports for my entire life including football, wrestling, and soccer.
+          In high school, I recieved All-American honors in heavyweight
+          wrestling in the National Preps tournament as well as All-District and
+          All-State honors for football both my junior and senior year. After
+          highschool, I was fortunate enough to play football at Dartmouth
+          College. At Dartmouth, I found success both individually and as a
+          member of the team, having won two Ivy-League championships during my
+          time there. Moreover, I was incredibly honored to have received
+          various individual accolades which can be found on my resume above.
+        </p>
+      </div>
+      <img src="images/football.jpeg" height="252" width="450" border="0" />
+      <div id="projects"></div>
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+    </div>
+    <hr />
+    <div>
+      <div>&nbsp;</div>
+      <h2>Projects</h2>
+      <p>
+        <strong
+          ><a
+            href="https://catkeson123.github.io/react-blackjack/"
+            target="_blank"
+            >Blackjack (React)</a
+          >
+          <a
+            href="https://github.com/catkeson123/react-blackjack"
+            target="_blank"
+            >(Github):</a
+          ></strong
+        >
+      </p>
+      <p>
+        During my Udemy class in Python, I created a program to play Blackjack
+        using OOP. I then built Blackjack in React in order to aid my learning
+        in Javascript. All of the standard rules of blackjack apply (dealer must
+        hit until above 17, aces can be both 1 or 11, both dealer and player
+        bust above 21, etc.). The game gives the player 100 chips to start out
+        and allows them to bet these chips at the start of each hand. The player
+        has the option to either continue with an existing game (if they still
+        have chips remaining) or start a new game at any point.
+      </p>
+      <div></div>
+      <p>
+        <strong
+          >Interactive Dartmouth Map (Python)
+          <a
+            href="https://github.com/catkeson123/dartmouth-map"
+            target="_blank"
+          >
+            (Github):</a
+          ></strong
+        >
+      </p>
+      <p>
+        As my final project in one of my programming classes at Dartmouth, I
+        created an interactive map of Dartmouth that includes vertices at each
+        of the main walking areas on campus. The map allows you to click on any
+        vertex on the map and then hover over any of the other vertices to
+        determine the shortest walking path between them. The search algorithm
+        is a breadth-first search algorithm that utilizes backchaining.
+      </p>
+      <img src="images/DartmouthMap.gif" height="450" />
+      <p>
+        <strong
+          >Calendar (Python)
+          <a href="https://github.com/catkeson123/Calendar" target="_blank"
+            >(GitHub):</a
+          ></strong
+        >
+      </p>
+      <p>
+        This is an interactive calendar with a year of your choosing that I
+        created in Python using OOP. This project allows you to schedule events
+        (with options to schedule them with a time or as daily or weekly
+        recurring events), search for events in the calendar with specifications
+        such as time or recurring, and finally browse the calendar with all of
+        the events you have scheduled.
+      </p>
+      <div align="center">
+        <iframe src="./Calendar.html" width="1050" height="450"></iframe>
+      </div>
+      <p>
+        <strong
+          >Solar System (Python)
+          <a href="https://github.com/catkeson123/solar-system" target="_blank">
+            (Github):</a
+          ></strong
+        >
+      </p>
+      <p>
+        During my time at Dartmouth, I built and interactive solar system using
+        Python and OOP. It includes the Sun, Mercury, Venus, Earth, and Mars
+        with realistic gravitational pull and orbiting for each body in the
+        system. I would have liked to inlcude the rest of the solar system
+        (which would have been easy to implement), but given the extreme
+        distances between the rest of the planets, it would be difficult to
+        simulate them all in the same window.
+      </p>
+      <img src="images/SolarSystemGIF.gif" width="450" height="450" />
+      <p>
+        <strong
+          >War (Python)
+          <a href="https://github.com/catkeson123/War-Game" target="_blank"
+            >(GitHub):</a
+          ></strong
+        >
+      </p>
+      <p>
+        This project is a recreation of the card game War using OOP in Python. A
+        deck of cards is created and an equal amount of cards is dealt to each
+        player. Each player than "draws" a card and whichever player has the
+        higher ranking card recieves both cards that have been dealt. It also
+        includes functionality for War in which the two players draw equal
+        cards. The game continues until one player is completely out of cards.
+      </p>
+      <div align="center">
+        <iframe src="./WarGame.html" width="1050" height="450"></iframe>
+      </div>
+      <div id="experience"></div>
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+    </div>
+    <hr />
+    <div>
+      <div>&nbsp;</div>
+      <h2>Work and Volunteer Experience</h2>
+      <div>&nbsp;</div>
+
+      <div class="flip-box">
+        <div class="flip-box-inner">
+          <div class="flip-box-front">
+            <strong>Iconiq Capital (January 2020 - March 2020):</strong>
+            <p>
+              Over the winter of my Sophomore year at Dartmouth, I worked at the
+              growth equity branch of the investment firm, Iconiq Capital, which
+              specializes in tech investment. During my time there I conducted
+              my own market research and created an analyst presentation on the
+              Chaos Engineering space which I presented to a groups of the
+              firm's partners. Moreover, I helped to organize thousands of units
+              of company data using the CRM salesforce and helped to streamline
+              operations for a founding partner.
+            </p>
+          </div>
+          <div class="flip-box-back">
+            <a href="https://www.iconiqcapital.com/" target="_blank">
+              Iconiq Capital
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-box">
+        <div class="flip-box-inner">
+          <div class="flip-box-front">
+            <strong>Delta Investment Management (June 2019)</strong>
+            <p>
+              Working with Delta Investment Management was my first experience
+              with working in finance. Here, I learned the ins and outs of
+              finance from the buyer-side. Additonally, I helped to streamline
+              some functionalities for the compny using excel.
+            </p>
+          </div>
+          <div class="flip-box-back">
+            <a href="https://deltaim.com/" target="_blank"
+              >Delta Investment Management</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-box">
+        <div class="flip-box-inner">
+          <div class="flip-box-front">
+            <strong
+              >Dartmouth Investment and Philanthropy Program (September 2020 -
+              June 2022):</strong
+            >
+            <p>
+              In the fall of 2020, I joined the Dartmouth Investment and
+              Philanthropy club at dartmouth, a student led orginization which
+              manages a $500,000 equity portfolio and reinvests gains into
+              philanthropic endeavors. During my time in the club, I worked in
+              small groups to analyze potential investments for the portfolio.
+            </p>
+          </div>
+          <div class="flip-box-back">
+            <a href="https://dippnh.org/" target="_blank"
+              >Dartmouth Investment and Philanthropy Program</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-box">
+        <div class="flip-box-inner">
+          <div class="flip-box-front">
+            <strong> Math NC (July 2016 - May 2018):</strong>
+            <p>
+              In high school, my friend and I founded a math tutoring service
+              that instructed children ages kindergarten to fifth grade at both
+              the Boys and Girls Club and YMCA. In total, we actively tutored
+              over 50 children from each orginization over Skype and managed
+              over 15 tutors at our high school. Additionally, we spread the
+              program to other high schools which connected with the Boys and
+              Girls Club/YMCA's in their areas.
+            </p>
+          </div>
+          <div class="flip-box-back">
+            <a href="https://www.mathnc.com/" target="_blank">Math NC</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-box">
+        <div class="flip-box-inner">
+          <div class="flip-box-front">
+            <strong>Boys and Girls Club (July 2019-August 2019):</strong>
+            <p>
+              Throughout high school and the beginning of college, I worked
+              intermittenly with a few different Boys and Girls Clubs in my
+              area. In high school, I primarliy volunteered by helping students
+              with homework (particualry in math) as well as supervising them
+              during recess periods. During the summer after my freshmen year of
+              college I worked with a Boys and Girls Club in Johnston County, NC
+              where I helped them to design, build, and code lego robotics.
+            </p>
+          </div>
+          <div class="flip-box-back">
+            <a href="https://www.bgca.org/" target="_blank">
+              Boys & Girls Club</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-box">
+        <div class="flip-box-inner">
+          <div class="flip-box-front">
+            <strong>Salvio's Pizza (February 2018 - July 2018):</strong>
+            <p>
+              My first job was working at a pizzeria called Salvio's Pizzeria in
+              my hometown of Raleigh, North Carolina. Here I worked the
+              register, delivered orders, and helped prepare food in the
+              kitchen.
+            </p>
+          </div>
+          <div class="flip-box-back">
+            <a href="https://www.salviospizza.com/" target="_blank"
+              >Salvio's Pizza</a
+            >
+          </div>
+        </div>
+      </div>
+      <div>&nbsp;</div>
+    </div>
+    <hr />
+    <div id="location">
+      <div>&nbsp;</div>
+      <h2>Current Location:</h2>
+      <div align="center">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206994.23418277517!2d-78.77140765226918!3d35.842016823379645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac5a2f9f51e0f7%3A0x6790b6528a11f0ad!2sRaleigh%2C%20NC!5e0!3m2!1sen!2sus!4v1674166257083!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div>&nbsp;</div>
+      <div>&nbsp;</div>
+    </div>
   </body>
 </html>
